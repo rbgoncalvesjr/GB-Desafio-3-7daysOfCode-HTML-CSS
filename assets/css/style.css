@@ -1,0 +1,276 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    color: #8E2424;
+    margin-right: 10px;
+    vertical-align: middle;
+} 
+
+.logo a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #3A404E;
+    text-decoration: none;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-list li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #667085;
+    text-decoration: none;
+}
+
+.login a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #667085;
+    margin-right: 15px;
+}
+
+.login button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    background: #8E2424;
+    padding: 10px 15px;
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #8E2424;
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #101828;
+}
+
+header div {
+    width: 55%;
+    margin: 0 auto;
+}
+
+header div p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+
+.metricas {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: 96px auto;
+}
+
+.div-metricas {
+    width: 18vw;
+}
+
+.destaque-num {
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.div-metricas h3 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+}
+
+.div-metricas p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+
+.cabecalho-vagas {
+    margin-top: 96px;
+    text-align: center;
+}
+
+.cabecalho-vagas img {
+    margin: 48px auto;
+}
+
+.cabecalho-vagas a {
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #8E2424;
+}
+
+.cabecalho-vagas h2, form h2 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #101828;
+}
+
+.cabecalho-vagas p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+    letter-spacing: 1.2px;
+}
+
+.det-vagas {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.det-vagas article h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #101828;
+}
+
+.det-vagas article div {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin: 24px 0;
+    padding-bottom: 24px;;
+}
+
+.det-vagas article div h5 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+    padding: 0 24px;
+}
+
+.det-vagas article div span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #667085;
+    padding: 0 24px;
+    margin-bottom: 24px;
+}
+
+.depoimentos {
+    width: 80%;
+    margin: 96px auto;
+    background-color: #FBF1F1;
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px;
+}
+
+.depoimentos a {
+    font-weight: 600;
+    font-size: 14px;
+    color: #8E2424;
+    text-decoration: none;
+}
+
+.depoimentos .texto-depoimento {
+    font-weight: 500;
+    font-size: 36px;
+    color: #101828
+}
+
+.depoimentos img {
+    margin-bottom: 10px;
+}
+
+.depoimentos h6 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #101828;
+}
+
+.avatar-texto {
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+}
+
+form {
+    background-color: #F9FAFB;
+}
+
+form {
+    margin-top: 96px;
+    text-align: center;
+    padding: 48px;
+}
+form p {
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form input, form input:active {
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 10px 5px;
+    outline: none;
+    line-height: 24px;
+    width: 300px;
+}
+
+form input::placeholder {
+    color: #667085;
+    line-height: 24px;
+}
+
+form button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px 15px;
+    background-color: #8E2424;
+    border-radius: 8px;
+    border: none;
+    margin-left: 10px;
+    line-height: 24px;
+}
+
+.footer-texto {
+    margin-top: 32px;
+    color: #98A2B3;
+    font-size: 16px;
+    font-weight: 400;
+}
